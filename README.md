@@ -13,4 +13,4 @@ Sebuah server GTA SA-MP untuk pemain Malaysia. 🚗💨
 
 ## 🔗 Pautan Berguna
 - **Discord:** [Klik untuk Join](https://discord.gg/WDPNnZ7SYW)
-- **Laman Web:** [https://www.example.com](https://fahimly.github.io/lepakfreeroam/)
+- **Laman Web:** [Klik](https://fahimly.github.io/lepakfreeroam/)
