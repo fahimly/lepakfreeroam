@@ -7,10 +7,12 @@ body {
     padding: 0;
 }
 .banner {
-    width: 70%;
-    max-height: 200px;
+    width: 800px;
+    max-height: 250px;
     object-fit: cover;
     border-radius: 500px;
+    padding: 5px;
+    background-color: #ffb10a;
 }
 .server-info {
     margin: 20px;
@@ -41,10 +43,16 @@ footer {
 .ys { color: #9900ff; }
 .year { color: #cccccc; }
 .profile {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 500px;
+    padding: 5px;
+    background-color: #0e5d81;
     object-fit: cover;
-    float: left;
-    margin-right: 20px;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
+.username {
+    font-size: 20px;
+    font-weight: bold;
+}
