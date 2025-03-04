@@ -7,21 +7,22 @@ body {
     padding: 0;
 }
 .banner {
-    width: 100%;
-    max-height: 300px;
+    width: 70%;
+    max-height: 200px;
     object-fit: cover;
+    border-radius: 500px;
 }
 .server-info {
-    margin: 20px 0;
+    margin: 20px;
 }
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 5px;
     background-color: #ff4500;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 30px;
     transition: 0.3s;
 }
 .btn:hover {
@@ -39,3 +40,11 @@ footer {
 .ml { color: #ffcc00; }
 .ys { color: #9900ff; }
 .year { color: #cccccc; }
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+  }
