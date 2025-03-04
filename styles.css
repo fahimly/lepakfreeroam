@@ -58,24 +58,24 @@ footer {
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     body {
-        font-size: 16px;
+        font-size: 20px;
     }
     .banner {
-        max-height: 150px;
-        border-radius: 250px;
+        max-height: 200px;
+        border-radius: 500px;
     }
     .btn {
-        padding: 8px 16px;
-        margin: 4px;
+        padding: 10px 20px;
+        margin: 5px;
     }
     .profile {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
     .username {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
