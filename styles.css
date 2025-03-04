@@ -56,3 +56,69 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    .banner {
+        max-height: 150px;
+        border-radius: 250px;
+    }
+    .btn {
+        padding: 8px 16px;
+        margin: 4px;
+    }
+    .profile {
+        width: 100px;
+        height: 100px;
+    }
+    .username {
+        font-size: 18px;
+    }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    .banner {
+        max-height: 180px;
+        border-radius: 400px;
+    }
+    .btn {
+        padding: 9px 18px;
+        margin: 5px;
+    }
+    .profile {
+        width: 120px;
+        height: 120px;
+    }
+    .username {
+        font-size: 19px;
+    }
+}
+
+/* Media query for desktops */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+    .banner {
+        max-height: 200px;
+        border-radius: 500px;
+    }
+    .btn {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+    .profile {
+        width: 150px;
+        height: 150px;
+    }
+    .username {
+        font-size: 20px;
+    }
+}
