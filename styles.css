@@ -3,8 +3,6 @@ body {
     background-color: #121212;
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 .banner {
     width: 100%;
@@ -13,22 +11,61 @@ body {
     border-radius: 500px;
     padding: 5px;
     background-color: #ffb10a;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s;
+    box-shadow: 20px 0 50px #cc00ff, -20px 0 50px #ff7b00;
 }
 .server-info {
     margin: 20px;
 }
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #ff4500;
+    padding: 0.3em 0.6em; /* Reduced padding */
+    font-size: 0.8em; /* Reduced font size */
+    background-color: #ff3300;
+    border: none;
     color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: 0.3s;
+    max-width: 150px;
+    width: auto;
+    border-radius: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto; /* Adjust flex properties to make the button more compact */
+    margin: 0 auto; /* Center the button */
+    text-align: center; /* Center the text in the button */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold; /* Bold text */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effect */
+    box-shadow: 20px 0 50px #cc00ff, -20px 0 50px #ff7b00; /* Add box shadow */
+    z-index: 1; /* Set z-index to 1 */
+    overflow: hidden; /* Hide overflow content */
+    position: relative; /* Set position to relative */
+    display: inline-block; /* Display as inline-block */
+    text-align: center; /* Center text */
+    white-space: nowrap; /* Prevent text wrapping */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Change cursor to pointer */
+    font-weight: bold; /* Set font weight to bold */
+    text-transform: uppercase; /* Uppercase text */
+}
+.btn::after {
+    content: '';
+    position: absolute;
+    height: 107%;
+    width: 102%;
+    border-radius: 1000px;
+    background: linear-gradient(to bottom right, #ff0055, #ffad06);
+    z-index: -1;
 }
 .btn:hover {
-    background-color: #e63900;
+    z-index: 0;
+    box-shadow: 40px 0 100px #cc00ff, -40px 0 100px #ff7b00;
 }
 footer {
     margin-top: 20px;
